@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.registerContainer{
+    height: 1200px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.923), var(--bg-color));
+}
+
+.registerHeading{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 33vw;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.registerHeading h1{
+    color: var(--color-text);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.registerHeading p{
+    font-size: 20px;
+    color: var(--color-text);
+}
+
+
+
+
+.formContainer{
+    height: 700px;
+    width: 500px;
+    background-color: blue;
+    position: absolute;
+    top: 390px;
+    left: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 63px 20px 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, var(--bg-color), rgba(0, 0, 0, 0.923) );
+
+}
+
+.formElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 25px;
+    color: white;
+}
+
+.formElement input{
+    width: 240px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.formContainer button{
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: white;
+    background-color: var(--color-primary);
+}

@@ -1,0 +1,67 @@
+@import "../../vars.css";
+
+.aboutUsContainer{
+    height: 1400px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.923), var(--bg-color));
+}
+
+.aboutUsContainer h1{
+    position: absolute;
+    top: 140px;
+    left: 37vw;
+    color: var(--color-text);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.introContainer{
+    height: 1200px;
+    width: 1100px;
+    position: absolute;
+    left: 170px;
+    top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-y: hidden;
+}
+
+.introContainer h2{
+    font-size: 40px;
+    color: rgba(152, 139, 139, 0.645);
+}
+
+.introContainer p {
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.spark h2{
+    padding-left: 400px;
+    padding-bottom: 20px;
+    color: rgba(85, 75, 75, 0.828) ;
+}
+
+.spark{
+    height: 250px;
+    width: 1300px;
+    background-image: url('/DjsSpark.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.spark p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 26px;
+    
+}
+

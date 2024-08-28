@@ -1,0 +1,46 @@
+@import "../../vars.css";
+
+.aboutUsContainer{
+    height: 1400px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.923), var(--bg-color));
+}
+
+.aboutUsContainer h1{
+    position: absolute;
+    top: 100px;
+    left: 36vw;
+    color: var(--color-text);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.introContainer{
+    height: 1200px;
+    width: 1000px;
+    position: absolute;
+    left: 180px;
+    top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-y: hidden;
+}
+
+.introContainer h2{
+    font-size: 40px;
+    color: rgba(152, 139, 139, 0.645);
+}
+
+.introContainer p {
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+
+

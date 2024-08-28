@@ -1,0 +1,91 @@
+@import "../../vars.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: black;
+}
+
+video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+}
+
+.content{
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 250px;
+    left: 380px;
+    display: flex;
+    gap: 30px;
+    font-size: 50px;
+    color: var(--color-text);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-y: hidden;
+
+}
+
+.content h3{
+    position: relative;
+    top: 100px;
+    right: 45vw
+}
+
+
+
+
+
+.InfoBarcontainer{
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background: linear-gradient(180deg, black, var(--bg-color));
+    
+}
+
+.InfoBarContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.InfoBarContainer > div{
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+}
+
+.InfoBarContainer > div > img{
+    height: 70px;
+    padding-left: 40px;
+
+}
+
+.InfoBarContainer > div > a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.smallDivs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.smallDivs a{
+    padding-left: 30px;
+}
+
+
+

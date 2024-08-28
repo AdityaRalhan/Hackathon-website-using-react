@@ -1,0 +1,54 @@
+@import "../../vars.css";
+
+.container{
+    height: 1000px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.923), var(--bg-color));
+}
+
+.registerHeading{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left: 30vw;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-text);
+    font-size: 25px;
+}
+
+.container img{
+    height: 100px;
+    width: 100px;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+    border-radius: 10px; 
+    overflow-y: hidden;
+}
+
+.firstRow{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 400px;
+    left: 40vw;
+    gap: 90px;
+}
+
+.secondRow{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 700px;
+    left: 40vw;
+    gap: 90px;
+}
+
+
+.container img:hover{
+    transform: scale(1.2);
+}
+

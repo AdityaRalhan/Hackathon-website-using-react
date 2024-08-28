@@ -1,0 +1,27 @@
+@import "../../vars.css";
+
+.container{
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.923), var(--bg-color));
+}
+
+.registerHeading{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left: 50vw;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-text);
+    font-size: 25px;
+}
+
+.imageContainer{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
