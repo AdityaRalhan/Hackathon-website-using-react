@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Intro.module.css'
-import { motion } from 'framer-motion';
+import * as FramerMotion from 'node_modules/framer-motion';
+const { motion } = FramerMotion;
 import { Link } from 'react-router-dom';
 
 
